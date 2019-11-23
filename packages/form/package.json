@@ -1,7 +1,7 @@
 {
 	"name": "@layerly/form",
 	"description": "",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"scripts": {
 		"build": "rollup -c",
 		"watch": "rollup -cw",
@@ -31,6 +31,8 @@
 		"@babel/plugin-transform-typescript": "^7.3.2",
 		"@babel/preset-env": "^7.3.4",
 		"@babel/preset-typescript": "^7.3.3",
+		"@layerly/grid": "^0.0.2",
+		"@layerly/schema": "^0.0.2",
 		"@types/classnames": "^2.2.9",
 		"@types/hoist-non-react-statics": "^3.3.1",
 		"@types/node": "^12.12.11",
@@ -46,16 +48,14 @@
 		"tslint": "^5.13.0",
 		"tslint-config-prettier": "^1.18.0",
 		"tslint-react": "^3.6.0",
-		"typescript": "^3.3.3333",
-		"@layerly/schema": "*",
-		"@layerly/grid": "*"
+		"typescript": "^3.3.3333"
 	},
 	"peerDependencies": {
+		"@layerly/grid": "*",
+		"@layerly/schema": "*",
 		"react": "*",
 		"react-dom": "*",
-		"styled-components": "*",
-		"@layerly/schema": "*",
-		"@layerly/grid": "*"
+		"styled-components": "*"
 	},
 	"license": "MIT",
 	"dependencies": {
