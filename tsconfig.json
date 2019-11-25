@@ -1,5 +1,20 @@
 {
-    "compilerOptions": {
-        
-    }
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "jsx": "react",
+    "skipLibCheck": true,
+    "lib": ["dom", "es6"],
+    "experimentalDecorators": true,
+    "declaration": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  }
 }

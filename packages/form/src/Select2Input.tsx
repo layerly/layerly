@@ -61,7 +61,7 @@ const Select2InputSortableValueContainer = SortableContainer(props => {
 								{childrenItem}
 							</Select2InputMultiValueSortableElement>
 						);
-				  })
+				})
 				: children[0]
 				? children[0]
 				: null}

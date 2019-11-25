@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "lerna": "lerna",
-    "build": "lerna exec --parallel -- \"rm -rf ./dist && yarn build\""
+    "build": "lerna run build"
   },
   "devDependencies": {
     "lerna": "^3.19.0"

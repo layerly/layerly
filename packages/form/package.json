@@ -7,14 +7,14 @@
 		"watch": "rollup -cw",
 		"test": "echo \"Warn: No test specified\" && exit 0"
 	},
-	"main": "dist/index.js",
-	"module": "dist/index.es.js",
-	"types": "dist/index.d.ts",
+	"main": "lib/index.js",
+	"module": "lib/index.es.js",
+	"types": "lib/index.d.ts",
 	"publishConfig": {
 		"access": "public"
 	},
 	"files": [
-		"dist"
+		"lib"
 	],
 	"keywords": [],
 	"author": "",
@@ -41,9 +41,12 @@
 		"@types/react-select": "^3.0.8",
 		"@types/styled-components": "^4.4.0",
 		"@types/yup": "^0.26.24",
-		"lodash": "^4.17.15",
 		"rollup": "^1.27.4",
+		"rollup-plugin-babel-minify": "^9.1.1",
+		"rollup-plugin-cleanup": "^3.1.1",
 		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-delete": "^1.1.0",
+		"rollup-plugin-progress": "^1.1.1",
 		"rollup-plugin-typescript2": "^0.25.2",
 		"tslint": "^5.13.0",
 		"tslint-config-prettier": "^1.18.0",
@@ -66,7 +69,9 @@
 		"dot-prop": "^5.2.0",
 		"hoist-non-react-statics": "^3.3.1",
 		"immutability-helper": "^3.0.1",
+		"invariant": "^2.2.4",
 		"is-client": "^0.0.2",
+		"lodash": "^4.17.15",
 		"react-select": "3.0.4",
 		"react-sortable-hoc": "^1.10.1",
 		"yup": "^0.27.0"
