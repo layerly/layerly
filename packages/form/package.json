@@ -1,7 +1,7 @@
 {
 	"name": "@layerly/form",
 	"description": "",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"scripts": {
 		"build": "rollup -c",
 		"watch": "rollup -cw",
@@ -31,8 +31,8 @@
 		"@babel/plugin-transform-typescript": "^7.3.2",
 		"@babel/preset-env": "^7.3.4",
 		"@babel/preset-typescript": "^7.3.3",
-		"@layerly/grid": "^0.0.4",
-		"@layerly/schema": "^0.0.3",
+		"@layerly/grid": "^0.0.5",
+		"@layerly/schema": "^0.0.4",
 		"@types/classnames": "^2.2.9",
 		"@types/hoist-non-react-statics": "^3.3.1",
 		"@types/node": "^12.12.11",
