@@ -1,4 +1,4 @@
-import { isSchemaItem, SchemaItem, SchemaItemOpts } from "@epranka/test-schema";
+import { isSchemaItem, SchemaItem, SchemaItemOpts } from "@layerly/schema";
 import { every, findIndex, isPlainObject } from "lodash";
 import { SchemaInput } from "./Input";
 import { isShape, mergeShapes } from "./Shape";

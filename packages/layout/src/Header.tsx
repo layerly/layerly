@@ -1,4 +1,4 @@
-import { SchemaItem, SchemaItemOpts } from "@epranka/test-schema";
+import { SchemaItem, SchemaItemOpts } from "@layerly/schema";
 import * as React from "react";
 import styled from "styled-components";
 import { HeaderSchemaItemType } from "./types";

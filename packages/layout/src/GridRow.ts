@@ -1,4 +1,4 @@
-import { SchemaItem } from "@epranka/test-schema";
+import { SchemaItem } from "@layerly/schema";
 import { CSSObject } from "styled-components";
 import { GridRowSchemaItemType } from "./types";
 

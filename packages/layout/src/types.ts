@@ -1,4 +1,4 @@
-import { SchemaItemType } from "@epranka/test-schema";
+import { SchemaItemType } from "@layerly/schema";
 
 export const GridSchemaItemType: SchemaItemType = "layout-schema/grid";
 export const GridBlockSchemaItemType: SchemaItemType =

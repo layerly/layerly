@@ -1,8 +1,12 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "build": "lerna exec --parallel -- \"rm -rf ./dist && yarn build\""
   },
   "devDependencies": {
     "lerna": "^3.19.0"

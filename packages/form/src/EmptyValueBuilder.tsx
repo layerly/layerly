@@ -4,7 +4,7 @@ import SchemaBuilder, {
 	SchemaItem,
 	walk,
 	UnknownSchemaItemType
-} from "@epranka/test-schema";
+} from "@layerly/schema";
 import { SchemaInput } from "./Input";
 import { List } from "./List";
 import { isShape, Shape } from "./Shape";

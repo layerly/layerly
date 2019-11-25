@@ -1,5 +1,5 @@
-import { Grid } from "@epranka/test-layout-schema";
-import { Group, isSchemaItem, SchemaItem } from "@epranka/test-schema";
+import { Grid } from "@layerly/grid";
+import { Group, isSchemaItem, SchemaItem } from "@layerly/schema";
 import { cloneDeep, each, every, find, isPlainObject } from "lodash";
 import { SchemaInput } from "./Input";
 import { isList, List } from "./List";

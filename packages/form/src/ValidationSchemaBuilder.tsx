@@ -8,7 +8,7 @@ import SchemaBuilder, {
 	Group,
 	GroupSchemaItemType,
 	UnknownSchemaItemType
-} from "@epranka/test-schema";
+} from "@layerly/schema";
 import {
 	ShapeSchemaItemType,
 	InputSchemaItemType,

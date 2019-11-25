@@ -4,7 +4,7 @@ import SchemaBuilder, {
 	UnknownSchemaItemType,
 	walk,
 	AnySchemaItemType
-} from "@epranka/test-schema";
+} from "@layerly/schema";
 import React from "react";
 import { GridBlock, GridRow, Header } from ".";
 import {

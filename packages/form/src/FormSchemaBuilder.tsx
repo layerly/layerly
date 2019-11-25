@@ -7,8 +7,8 @@ import { isShape } from "./Shape";
 import { ArrayOfFields } from "./ArrayOfFields";
 import { EmptyValueBuilder } from "./EmptyValueBuilder";
 import { ValidationSchemaBuilder } from "./ValidationSchemaBuilder";
-import SchemaBuilder, { SchemaItem } from "@epranka/test-schema";
-import { LayoutSchemaBuilder } from "@epranka/test-layout-schema";
+import SchemaBuilder, { SchemaItem } from "@layerly/schema";
+import { LayoutSchemaBuilder } from "@layerly/grid";
 import hoistNonReactStatics from "hoist-non-react-statics";
 import arrayMove from "array-move";
 

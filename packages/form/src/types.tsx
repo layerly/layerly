@@ -1,4 +1,4 @@
-import { SchemaItemType } from "@epranka/test-schema";
+import { SchemaItemType } from "@layerly/schema";
 
 export const ShapeSchemaItemType: SchemaItemType = "form-schema/shape";
 export const InputSchemaItemType: SchemaItemType = "form-schema/input";

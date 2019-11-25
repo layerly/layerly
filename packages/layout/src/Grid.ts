@@ -1,4 +1,4 @@
-import { SchemaItem, SchemaItemOpts } from "@epranka/test-schema";
+import { SchemaItem, SchemaItemOpts } from "@layerly/schema";
 import { GridSchemaItemType } from "./types";
 
 interface GridOptions {}
