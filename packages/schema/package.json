@@ -49,5 +49,6 @@
 		"invariant": "^2.2.4",
 		"lodash": "^4.17.15",
 		"object-hash": "^2.0.0"
-	}
+	},
+	"gitHead": "4c6283005f1ba6de7e18a9cd29dbfd10886af7e3"
 }

@@ -54,5 +54,6 @@
 		"react-dom": "*",
 		"styled-components": "*"
 	},
-	"license": "MIT"
+	"license": "MIT",
+	"gitHead": "4c6283005f1ba6de7e18a9cd29dbfd10886af7e3"
 }

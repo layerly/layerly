@@ -75,5 +75,6 @@
 		"react-select": "3.0.4",
 		"react-sortable-hoc": "^1.10.1",
 		"yup": "^0.27.0"
-	}
+	},
+	"gitHead": "4c6283005f1ba6de7e18a9cd29dbfd10886af7e3"
 }
