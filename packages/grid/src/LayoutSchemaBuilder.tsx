@@ -6,7 +6,7 @@ import SchemaBuilder, {
 	AnySchemaItemType
 } from "@layerly/schema";
 import React from "react";
-import { GridBlock, GridRow, Header } from ".";
+import { GridBlock, GridRow, Header } from "../src";
 import {
 	HeaderSchemaItemType,
 	GridBlockSchemaItemType,
